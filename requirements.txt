@@ -1,3 +1,5 @@
+subprocess
+sys
 streamlit
 pandas
 keybert
