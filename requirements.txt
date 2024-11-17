@@ -1,4 +1,3 @@
-sys
 streamlit
 pandas
 keybert
