@@ -8,7 +8,7 @@ import sys
 #     subprocess.check_call([sys.executable, "-m", "pip", "install", package], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
 !pip install keybert
-!pip install "keyphrase_vectorizers"
+!pip install keyphrase_vectorizers
 
 from keybert import KeyBERT
 from keyphrase_vectorizers import KeyphraseCountVectorizer
