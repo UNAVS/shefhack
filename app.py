@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
-import subprocess
-import sys
+# import subprocess
+# import sys
 
 # Install necessary packages in case they're missing
 # def install(package):
@@ -12,17 +12,6 @@ import sys
 
 from keybert import KeyBERT
 from keyphrase_vectorizers import KeyphraseCountVectorizer
-
-page_bg_img = '''
-<style>
-body {
-background-image: url("https://ibb.co/FhDkBJK");
-background-size: cover;
-}
-</style>
-'''
-
-st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Initialize KeyBERT model and vectorizer
 @st.cache_resource
