@@ -3,4 +3,3 @@ pandas
 subprocess
 sys
 keybert
-keyphrase_vectorizers
