@@ -3,7 +3,7 @@ import pandas as pd
 import subprocess
 import sys
 
-Install necessary packages in case they're missing
+# Install necessary packages in case they're missing
 def install(package):
     subprocess.check_call([sys.executable, "-m", "pip", "install", package], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
