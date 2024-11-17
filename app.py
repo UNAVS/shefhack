@@ -4,11 +4,11 @@ import subprocess
 import sys
 
 # Install necessary packages in case they're missing
-# def install(package):
-#     subprocess.check_call([sys.executable, "-m", "pip", "install", package], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
-pipenv install keybert
-pipenv install keyphrase_vectorizers
+install("keybert")
+install("keyphrase_vectorizers")
 
 from keybert import KeyBERT
 from keyphrase_vectorizers import KeyphraseCountVectorizer
