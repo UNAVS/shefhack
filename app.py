@@ -1,14 +1,14 @@
 import streamlit as st
 import pandas as pd
-# import subprocess
-# import sys
+import subprocess
+import sys
 
-# Install necessary packages in case they're missing
-# def install(package):
-#     subprocess.check_call([sys.executable, "-m", "pip", "install", package], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+Install necessary packages in case they're missing
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
-# install("keybert")
-# install("keyphrase_vectorizers")
+install("keybert")
+install("keyphrase_vectorizers")
 
 from keybert import KeyBERT
 from keyphrase_vectorizers import KeyphraseCountVectorizer
